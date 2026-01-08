@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Rayyan Asraf</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0f172a;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+        }
+
+        header p {
+            font-size: 16px;
+            margin-top: 10px;
+            color: #cbd5e1;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #0f172a;
+            border-bottom: 2px solid #e5e7eb;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .about p {
+            margin-top: 10px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #1e293b;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0f172a;
+            color: #cbd5e1;
+            margin-top: 40px;
+        }
+
+        footer span {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Rayyan Asraf</h1>
+        <p>Siswa Teknik Jaringan Komputer dan Telekomunikasi<br>
+           SMKS 1 Barunawati</p>
+    </header>
+
+    <section class="about">
+        <h2>Tentang Saya</h2>
+        <p>
+            Saya adalah siswa jurusan Teknik Jaringan Komputer dan Telekomunikasi (TJKT) 
+            dari SMKS 1 Barunawati. Saya memiliki ketertarikan pada dunia jaringan komputer, 
+            perakitan perangkat keras, serta pengembangan website sederhana.
+        </p>
+    </section>
+
+    <section>
+        <h2>Projek yang Pernah Dilaksanakan</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>Merakit PC</h3>
+                <p>
+                    Melakukan perakitan komputer dari komponen dasar hingga siap digunakan 
+                    serta memastikan semua perangkat berfungsi dengan baik.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Instalasi Kabel Jaringan</h3>
+                <p>
+                    Melakukan instalasi dan penataan kabel jaringan LAN, termasuk crimping 
+                    kabel UTP dan pengujian koneksi.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Memahami Jaringan Komputer</h3>
+                <p>
+                    Mempelajari dasar-dasar jaringan komputer seperti topologi jaringan, 
+                    IP Address, dan perangkat jaringan.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Membuat Website Sederhana</h3>
+                <p>
+                    Membuat website sederhana menggunakan HTML dan CSS sebagai dasar 
+                    pengembangan web.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 <span>Rayyan Asraf</span> | Portofolio</p>
+    </footer>
+
+</body>
+</html>
